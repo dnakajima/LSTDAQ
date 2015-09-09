@@ -1,10 +1,10 @@
 all:LSTDAQ DataChecker
 
 LSTDAQ:
-	g++ -o LSTDAQ Master.cpp RingBuffer.cpp TCPClientSocket.cpp DAQtimer.cpp -lrt -lpthread
+	clang -o LSTDAQ Master.cpp RingBuffer.cpp TCPClientSocket.cpp DAQtimer.cpp -lrt -lpthread
 
 DataChecker:
-	g++ -o DataChecker DataChecker.cpp
+	clang -o DataChecker DataChecker.cpp
 
 
 clean:
