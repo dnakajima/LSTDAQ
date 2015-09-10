@@ -850,7 +850,7 @@ int main(int argc, char** argv)
   //  CPU Inspection
   /******************************************/
   Ncpu = sysconf(_SC_NPROCESSORS_CONF);
-  cout<<"This machine has"<<Ncpu<<" cpus"<<endl;
+  cout<<"This machine has "<<Ncpu<<" cpus"<<endl;
   /******************************************/
   //  Reading Connection Configuration
   /******************************************/
